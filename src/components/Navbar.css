@@ -1,0 +1,38 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.logo{
+    margin-right: 1rem;
+    background-image: url('weather.png');
+    background-size: cover;
+    width: 2.5rem;
+    height: 2.5rem;
+    
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar li{
+    display: inline;
+    margin-right: 1.5rem;
+}
+.navbar-content{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    height: 8vh;
+    background-color: #1c1637;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 1.5rem;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}

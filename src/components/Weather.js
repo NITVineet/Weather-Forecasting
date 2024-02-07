@@ -7,7 +7,7 @@ const Weather = (props) =>{
     const[report,setReport] = useState([]);
     const[info,setInfo] = useState({feels_like:0, humidity:0,windSpeed:0})
     const updateWeather = async () =>{
-        const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=9cdf94f06677fe2cb4eea4c223bceaa6`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid={your_api}`;
         try {
             let response = await fetch(url);
             if (!response.ok) {
